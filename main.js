@@ -4,6 +4,8 @@ fetch("data.json")
 }).then((data)=>{
     // console.log(data);
     display_info(data.basics);
+   //create function for education
+    education_data(data.basics.education);
 })
 var bodyElement=document.querySelector("#root");
 function display_info(info){
@@ -44,4 +46,24 @@ function display_info(info){
     button.classList.add("btn");
     card.append(button);
 
+}
+//Education Data
+
+function education_data(edu_details){
+    for (i in edu_details){
+        //created section with classname
+        let sec=document.createElement("section");
+        sec.classList.add("education");
+        let deg=document.createElement("h3");
+        //getting degree name
+        deg.textContent=edu_details[i].degree;
+        sec.appendChild(deg);
+        //getting percentage
+        let p=document.createElement("p");
+        p.textContent="My Percentage is:"+edu_details[i].percentage;
+        sec.appendChild(p);
+         
+        //append the data into body
+        bodyElement.appendChild(sec);
+    }
 }
