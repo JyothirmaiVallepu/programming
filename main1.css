@@ -1,0 +1,32 @@
+.main{
+    background-color: white;
+    width:100%;
+    justify-content:space-around;
+    display:flex ;
+    flex-wrap: wrap;
+
+}
+#side1, #side2{
+    width:100%;
+    text-align: center;
+    background:orange ;
+    color:blue;
+    margin-bottom:50%;
+    border-radius:5% 0% 5% 0%;
+
+}
+img{
+    border-radius: 100%;
+    padding-top:10%;
+}
+/* media query for mobile view*/
+@media only screen and (min-width:320px) and (max-width:460px{
+   .main{
+       width:100%;
+   }
+   #side1,#side2{
+       width:80%;
+       background-color: violet;
+   }
+
+}

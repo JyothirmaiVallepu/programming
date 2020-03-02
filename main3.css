@@ -1,0 +1,54 @@
+header h1{
+    text-align:center;
+}
+.main3{
+    background:silver;
+    width:100%;
+    text-align:left;
+    justify-content: space-around;
+    display:flex;
+    flex-wrap:wrap;
+}
+#side1,#side2
+{
+    
+    text-align:left;
+    background:silver;
+    color:white;
+    margin:2% 0%;
+    border-radius:7% 0%;
+    width:50%
+}
+
+img{
+    border-radius:50%;
+    padding-top:1%;
+}
+a{
+    color:green;
+}
+/*media query for tab view*/
+@media only screen and (min-width: 320px) and (max-width: 460px){
+    .main{
+        width:100%;
+    }
+    #side1,#side2{
+        width:100%;
+
+    }
+
+}
+@media (min-device-width: 461px) and (max-device-width:780px )
+{
+    #side1,#side2{
+        width:100%;
+        display:flex;
+        text-align:center;
+    }
+}
+img{
+    padding-left:5em;
+}
+.data{
+    padding-left:5em 6em 3em 0em;
+}

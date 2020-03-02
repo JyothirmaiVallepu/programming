@@ -1,0 +1,17 @@
+.main{
+    background-color: silver;
+    width:100%;
+    justify-content:space-around;
+    display:flex ;
+    flex-wrap: wrap;
+
+}
+#side1, #side2{
+    width:40%;
+    text-align: center;
+    background:orange ;
+    color:blue;
+    margin-bottom:5%;
+    border-radius:70% 70% 70% 70%;
+
+}

@@ -1,0 +1,23 @@
+{
+    "basics":{
+        "name":"Jyothirmai",
+        "role":"student",
+        "mobile":"8978647664",
+        "Gmail":"jyothirmai.vallepu96235@gmail.com",
+        "education":[
+            {
+                "degree":"ssc",
+                "percentage":10.0
+            },
+            {
+                "degree":"Inter",
+                "percentage":97.1
+            },
+            {
+                "degree":"B.Tech",
+                "percentage":89
+            }
+        ]
+
+    }
+}
